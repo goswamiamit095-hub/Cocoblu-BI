@@ -1,0 +1,235 @@
+/*==================================================
+    COCOBLU BI ENTERPRISE
+    RESET.CSS
+==================================================*/
+
+/*==================================
+    RESET
+==================================*/
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*==================================
+    HTML
+==================================*/
+
+html{
+    scroll-behavior:smooth;
+    -webkit-text-size-adjust:100%;
+}
+
+/*==================================
+    BODY
+==================================*/
+
+body{
+
+    min-height:100vh;
+
+    font-family:var(--font-family);
+
+    font-size:var(--font-md);
+
+    font-weight:var(--fw-regular);
+
+    color:var(--text);
+
+    background:var(--body-bg);
+
+    line-height:1.5;
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+    -moz-osx-font-smoothing:grayscale;
+
+    overflow-x:hidden;
+
+}
+
+/*==================================
+    MEDIA
+==================================*/
+
+img,
+picture,
+svg,
+video,
+canvas{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+/*==================================
+    FORM
+==================================*/
+
+input,
+button,
+textarea,
+select{
+
+    font:inherit;
+
+    border:none;
+
+    outline:none;
+
+    background:none;
+
+}
+
+button{
+
+    cursor:pointer;
+
+}
+
+textarea{
+
+    resize:none;
+
+}
+
+/*==================================
+    LINKS
+==================================*/
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/*==================================
+    LIST
+==================================*/
+
+ul,
+ol{
+
+    list-style:none;
+
+}
+
+/*==================================
+    TABLE
+==================================*/
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    border-spacing:0;
+
+}
+
+/*==================================
+    HR
+==================================*/
+
+hr{
+
+    border:none;
+
+    border-top:1px solid var(--border);
+
+}
+
+/*==================================
+    SELECTION
+==================================*/
+
+::selection{
+
+    background:var(--primary);
+
+    color:var(--white);
+
+}
+
+/*==================================
+    SCROLLBAR
+==================================*/
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+    height:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--surface-light);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary-light);
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary);
+
+}
+
+/*==================================
+    FOCUS
+==================================*/
+
+:focus-visible{
+
+    outline:2px solid var(--primary);
+
+    outline-offset:2px;
+
+}
+
+/*==================================
+    DISABLED
+==================================*/
+
+button:disabled,
+input:disabled,
+textarea:disabled{
+
+    cursor:not-allowed;
+
+    opacity:.6;
+
+}
+
+/*==================================
+    HIDDEN
+==================================*/
+
+[hidden]{
+
+    display:none !important;
+
+}
+
+/*==================================================
+        END RESET.CSS
+==================================================*/
