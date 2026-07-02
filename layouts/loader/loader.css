@@ -1,0 +1,121 @@
+/*==================================================
+        LOADER
+==================================================*/
+
+.app-loader{
+
+    position:fixed;
+
+    inset:0;
+
+    background:var(--body-bg);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:99999;
+
+    transition:.35s;
+
+}
+
+.app-loader.hide{
+
+    opacity:0;
+
+    visibility:hidden;
+
+}
+
+.loader-box{
+
+    text-align:center;
+
+}
+
+.loader-logo{
+
+    width:90px;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+.loader-box h2{
+
+    font-size:28px;
+
+    margin-bottom:8px;
+
+    color:var(--primary);
+
+}
+
+.loader-box p{
+
+    color:var(--text-light);
+
+    margin-bottom:25px;
+
+}
+
+.loader-spinner{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:10px;
+
+}
+
+.loader-spinner span{
+
+    width:14px;
+
+    height:14px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    animation:bounce .6s infinite alternate;
+
+}
+
+.loader-spinner span:nth-child(2){
+
+    animation-delay:.2s;
+
+}
+
+.loader-spinner span:nth-child(3){
+
+    animation-delay:.4s;
+
+}
+
+@keyframes bounce{
+
+    from{
+
+        transform:translateY(0);
+
+        opacity:.4;
+
+    }
+
+    to{
+
+        transform:translateY(-14px);
+
+        opacity:1;
+
+    }
+
+}
