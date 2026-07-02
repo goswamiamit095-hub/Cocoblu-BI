@@ -1,0 +1,178 @@
+/*==================================================
+    COCOBLU BI ENTERPRISE
+    VARIABLES.CSS
+==================================================*/
+
+:root{
+
+/*==================================
+    BRAND COLORS
+==================================*/
+
+--primary:#F59E0B;
+--primary-dark:#D97706;
+--primary-light:#FBBF24;
+
+--secondary:#8B5E3C;
+--secondary-light:#A47551;
+
+--accent:#FFD580;
+
+/*==================================
+    AMAZON COLORS
+==================================*/
+
+--amazon-orange:#FF9900;
+--amazon-dark:#232F3E;
+--amazon-blue:#146EB4;
+
+/*==================================
+    BACKGROUND
+==================================*/
+
+--body-bg:#F7F4EE;
+--surface:#FFFFFF;
+--surface-light:#FAF8F5;
+--surface-dark:#F1ECE4;
+
+/*==================================
+    TEXT
+==================================*/
+
+--text:#2F2F2F;
+--text-light:#6B7280;
+--text-muted:#9CA3AF;
+--white:#FFFFFF;
+
+/*==================================
+    STATUS
+==================================*/
+
+--success:#16A34A;
+--danger:#DC2626;
+--warning:#F59E0B;
+--info:#0EA5E9;
+
+/*==================================
+    BORDER
+==================================*/
+
+--border:#E5E7EB;
+--border-light:#F1F5F9;
+
+/*==================================
+    SIDEBAR
+==================================*/
+
+--sidebar-bg:#2F241B;
+--sidebar-hover:#4B3B2E;
+--sidebar-active:#F59E0B;
+--sidebar-text:#FFFFFF;
+
+/*==================================
+    TOPBAR
+==================================*/
+
+--topbar-bg:#FFFFFF;
+--topbar-height:72px;
+
+/*==================================
+    FOOTER
+==================================*/
+
+--footer-bg:#FFFFFF;
+--footer-height:60px;
+
+/*==================================
+    RADIUS
+==================================*/
+
+--radius-xs:4px;
+--radius-sm:8px;
+--radius-md:12px;
+--radius-lg:18px;
+--radius-xl:26px;
+--radius-round:999px;
+
+/*==================================
+    SHADOW
+==================================*/
+
+--shadow-xs:0 1px 3px rgba(0,0,0,.05);
+
+--shadow-sm:0 3px 10px rgba(0,0,0,.08);
+
+--shadow-md:0 10px 24px rgba(0,0,0,.10);
+
+--shadow-lg:0 18px 40px rgba(0,0,0,.14);
+
+/*==================================
+    SPACING
+==================================*/
+
+--space-4:4px;
+--space-8:8px;
+--space-12:12px;
+--space-16:16px;
+--space-20:20px;
+--space-24:24px;
+--space-30:30px;
+--space-40:40px;
+
+/*==================================
+    FONT
+==================================*/
+
+--font-family:'Inter',sans-serif;
+
+--font-xs:12px;
+--font-sm:14px;
+--font-md:16px;
+--font-lg:18px;
+--font-xl:22px;
+--font-2xl:28px;
+--font-3xl:36px;
+
+/*==================================
+    FONT WEIGHT
+==================================*/
+
+--fw-regular:400;
+--fw-medium:500;
+--fw-semibold:600;
+--fw-bold:700;
+--fw-black:800;
+
+/*==================================
+    TRANSITION
+==================================*/
+
+--transition-fast:.20s ease;
+--transition:.30s ease;
+--transition-slow:.45s ease;
+
+/*==================================
+    Z INDEX
+==================================*/
+
+--z-sidebar:900;
+--z-topbar:950;
+--z-dropdown:1000;
+--z-modal:1050;
+--z-loader:1100;
+--z-toast:1200;
+
+/*==================================
+    LAYOUT
+==================================*/
+
+--sidebar-width:280px;
+--sidebar-collapse:90px;
+
+--container-width:1600px;
+
+}
+
+/*==================================================
+        END VARIABLES
+==================================================*/
