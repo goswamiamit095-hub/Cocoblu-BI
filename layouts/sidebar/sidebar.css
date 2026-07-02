@@ -1,0 +1,203 @@
+/*==================================================
+    SIDEBAR
+==================================================*/
+
+.sidebar{
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    width:280px;
+
+    height:100vh;
+
+    background:var(--sidebar-bg);
+
+    color:#fff;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+    transition:var(--transition);
+
+    z-index:1000;
+
+}
+
+.sidebar.collapsed{
+
+    width:90px;
+
+}
+
+/*============================*/
+
+.sidebar-logo{
+
+    height:90px;
+
+    padding:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logo img{
+
+    width:42px;
+
+}
+
+.sidebar-logo h2{
+
+    font-size:20px;
+
+}
+
+.sidebar-logo span{
+
+    font-size:12px;
+
+    opacity:.7;
+
+}
+
+/*============================*/
+
+.sidebar-menu{
+
+    flex:1;
+
+    overflow:auto;
+
+    padding:15px;
+
+}
+
+/*============================*/
+
+.menu-group{
+
+    margin-bottom:10px;
+
+}
+
+.menu-btn{
+
+    width:100%;
+
+    height:48px;
+
+    border:none;
+
+    background:none;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    border-radius:12px;
+
+    padding:0 15px;
+
+}
+
+.menu-btn:hover{
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.menu-left{
+
+    display:flex;
+
+    gap:14px;
+
+    align-items:center;
+
+}
+
+.menu-btn i{
+
+    font-size:16px;
+
+}
+
+.submenu{
+
+    display:none;
+
+    margin-top:8px;
+
+    margin-left:20px;
+
+}
+
+.menu-group.open .submenu{
+
+    display:block;
+
+}
+
+.submenu a{
+
+    display:block;
+
+    color:#d6d6d6;
+
+    text-decoration:none;
+
+    padding:10px 15px;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+}
+
+.submenu a:hover{
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.submenu a.active{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+/*============================*/
+
+.sidebar-footer{
+
+    padding:20px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    font-size:12px;
+
+    opacity:.7;
+
+}
