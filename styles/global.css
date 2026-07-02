@@ -1,0 +1,381 @@
+/*==================================================
+    COCOBLU BI ENTERPRISE
+    GLOBAL.CSS
+==================================================*/
+
+/*==================================
+    APP LAYOUT
+==================================*/
+
+#app{
+
+    display:flex;
+
+    min-height:100vh;
+
+    background:var(--body-bg);
+
+}
+
+/*==================================
+    MAIN LAYOUT
+==================================*/
+
+#main-layout{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+    min-height:100vh;
+
+    margin-left:var(--sidebar-width);
+
+    transition:var(--transition);
+
+}
+
+/*==================================
+    PAGE ROOT
+==================================*/
+
+#page-root{
+
+    flex:1;
+
+    width:100%;
+
+    padding:30px;
+
+}
+
+/*==================================
+    CONTAINER
+==================================*/
+
+.container{
+
+    width:100%;
+
+    max-width:var(--container-width);
+
+    margin:auto;
+
+}
+
+/*==================================
+    SECTION
+==================================*/
+
+.section{
+
+    margin-bottom:30px;
+
+}
+
+/*==================================
+    CARD
+==================================*/
+
+.card{
+
+    background:var(--surface);
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-lg);
+
+    box-shadow:var(--shadow-sm);
+
+    padding:24px;
+
+}
+
+/*==================================
+    GRID
+==================================*/
+
+.grid{
+
+    display:grid;
+
+    gap:20px;
+
+}
+
+.grid-2{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.grid-3{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+.grid-4{
+
+    grid-template-columns:repeat(4,1fr);
+
+}
+
+/*==================================
+    FLEX
+==================================*/
+
+.flex{
+
+    display:flex;
+
+}
+
+.flex-column{
+
+    flex-direction:column;
+
+}
+
+.align-center{
+
+    align-items:center;
+
+}
+
+.justify-between{
+
+    justify-content:space-between;
+
+}
+
+.justify-center{
+
+    justify-content:center;
+
+}
+
+.flex-wrap{
+
+    flex-wrap:wrap;
+
+}
+
+/*==================================
+    GAP
+==================================*/
+
+.gap-8{gap:8px;}
+.gap-12{gap:12px;}
+.gap-16{gap:16px;}
+.gap-20{gap:20px;}
+.gap-24{gap:24px;}
+.gap-30{gap:30px;}
+
+/*==================================
+    WIDTH
+==================================*/
+
+.w-100{
+
+    width:100%;
+
+}
+
+.h-100{
+
+    height:100%;
+
+}
+
+/*==================================
+    TEXT
+==================================*/
+
+.text-left{
+
+    text-align:left;
+
+}
+
+.text-center{
+
+    text-align:center;
+
+}
+
+.text-right{
+
+    text-align:right;
+
+}
+
+.text-primary{
+
+    color:var(--primary);
+
+}
+
+.text-success{
+
+    color:var(--success);
+
+}
+
+.text-danger{
+
+    color:var(--danger);
+
+}
+
+.text-warning{
+
+    color:var(--warning);
+
+}
+
+.text-muted{
+
+    color:var(--text-light);
+
+}
+
+/*==================================
+    MARGIN
+==================================*/
+
+.mt-10{margin-top:10px;}
+.mt-20{margin-top:20px;}
+.mt-30{margin-top:30px;}
+
+.mb-10{margin-bottom:10px;}
+.mb-20{margin-bottom:20px;}
+.mb-30{margin-bottom:30px;}
+
+/*==================================
+    PADDING
+==================================*/
+
+.p-10{padding:10px;}
+.p-20{padding:20px;}
+.p-30{padding:30px;}
+
+/*==================================
+    SHADOW
+==================================*/
+
+.shadow-sm{
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+.shadow-md{
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.shadow-lg{
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+/*==================================
+    RADIUS
+==================================*/
+
+.rounded-sm{
+
+    border-radius:var(--radius-sm);
+
+}
+
+.rounded{
+
+    border-radius:var(--radius-md);
+
+}
+
+.rounded-lg{
+
+    border-radius:var(--radius-lg);
+
+}
+
+/*==================================
+    HOVER
+==================================*/
+
+.hover-lift{
+
+    transition:var(--transition);
+
+}
+
+.hover-lift:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-lg);
+
+}
+
+/*==================================
+    RESPONSIVE
+==================================*/
+
+@media(max-width:1200px){
+
+    .grid-4{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    #main-layout{
+
+        margin-left:0;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    #page-root{
+
+        padding:20px;
+
+    }
+
+    .grid-3,
+    .grid-4,
+    .grid-2{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    #page-root{
+
+        padding:15px;
+
+    }
+
+}
+
+/*==================================================
+        END GLOBAL.CSS
+==================================================*/
