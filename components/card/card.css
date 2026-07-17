@@ -1,1 +1,88 @@
+/*==================================================
+    COCOBLU BI
+    CARD COMPONENT
+==================================================*/
 
+.cb-card{
+
+    width:100%;
+
+    background:#FFFDF9;
+
+    border:1px solid #E8DCCF;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    transition:.30s;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+
+}
+
+.cb-card:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 28px rgba(0,0,0,.08);
+
+}
+
+/*==============================*/
+
+.cb-card-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 22px;
+
+    border-bottom:1px solid #EFE5DA;
+
+}
+
+/*==============================*/
+
+.cb-card-title{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    color:#5B3A29;
+
+}
+
+.cb-card-subtitle{
+
+    margin-top:4px;
+
+    font-size:13px;
+
+    color:#9C7C58;
+
+}
+
+/*==============================*/
+
+.cb-card-body{
+
+    padding:22px;
+
+}
+
+/*==============================*/
+
+.cb-card-footer{
+
+    padding:18px 22px;
+
+    border-top:1px solid #EFE5DA;
+
+    background:#FCF7F1;
+
+}
