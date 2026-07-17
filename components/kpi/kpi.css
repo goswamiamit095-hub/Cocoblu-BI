@@ -1,1 +1,88 @@
+/*==================================================
+    COCOBLU BI
+    KPI COMPONENT
+==================================================*/
 
+.cb-kpi{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.cb-kpi-icon{
+
+    width:64px;
+
+    height:64px;
+
+    border-radius:16px;
+
+    background:#F8E7D1;
+
+    color:#C46A16;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:26px;
+
+}
+
+.cb-kpi-content{
+
+    flex:1;
+
+}
+
+.cb-kpi-title{
+
+    font-size:13px;
+
+    color:#8B7355;
+
+    margin-bottom:6px;
+
+}
+
+.cb-kpi-value{
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#3E2A1F;
+
+}
+
+.cb-kpi-footer{
+
+    margin-top:10px;
+
+}
+
+.cb-kpi-change{
+
+    font-size:13px;
+
+    font-weight:600;
+
+}
+
+.cb-kpi-positive{
+
+    color:#2E8B57;
+
+}
+
+.cb-kpi-negative{
+
+    color:#D64545;
+
+}
